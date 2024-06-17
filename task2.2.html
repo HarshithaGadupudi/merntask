@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK-2</title>
+  </head>
+  <style>
+    .nav1 {
+      padding: 8px 5px 0px 5px;
+      width: 120px;
+      border: 1px solid black;
+      margin: 5px 10px;
+      color: blue;
+    }
+    .nav1 ul {
+      background-color: rgb(161, 222, 250);
+      list-style: none;
+
+      padding: 0;
+      margin: 0;
+    }
+    #one {
+      background-color: orange;
+      color: white;
+    }
+    .nav2 {
+      border: 1px solid black;
+      height: 60px;
+      margin: auto;
+      color: blue;
+      margin-left: 5rem;
+    }
+    .nav2 ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 5;
+    }
+    .nav2 ul li {
+      padding: 4px;
+      border: 1px solid black;
+      background-color: lightgrey;
+    }
+    .bars {
+      display: flex;
+    }
+    #two {
+      background-color: gray;
+      color: white;
+    }
+    a:hover {
+      background-color: yellow;
+    }
+  </style>
+  <body>
+    <div class="bars">
+      <nav class="nav1">
+        <ul style="line-height: 1.5rem">
+          <li id="one"><a>Home</a></li>
+          <li><a>Java</a></li>
+          <li><a>CSS</a></li>
+          <li><a>HTML</a></li>
+          <li><a>Bootstrap</a></li>
+        </ul>
+      </nav>
+      <nav class="nav2">
+        <ul>
+          <li id="two"><a>Home</a></li>
+          <li><a>Java</a></li>
+          <li><a>HTML</a></li>
+          <li><a>CSS</a></li>
+          <li><a>Bootstrap</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
